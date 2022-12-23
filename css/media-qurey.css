@@ -1,0 +1,167 @@
+ /* Week Three
+Assignments By Ayman Taha 23/12/2022  */
+
+/* Medium desktop :992px. */
+@media  (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+    .border {
+        display: none;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media  (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    .border {
+        display: none;
+    }
+    .cover-info-img {
+    transform: translateX(50%);
+    }
+    .cover-info-img  {
+        width: 60%;
+    }
+    .content-info {
+        width: 60%;
+        margin: 0 auto;
+        transform: translateX(50%);
+    }
+    .cv .cv-1,
+    .cv .cv-2 {
+        margin-top: 5px;
+        width: 100%;
+        padding: 0;
+    }
+    .about .btn  {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .services .card {
+        width: calc(100% / 2);
+    }
+    .products .product {
+        width: calc(90% / 2)
+    }
+    .counter .cards .card {
+        width: calc(100% / 2);
+    }
+    .blog .cards .card {
+        width: calc(100% / 2);
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+    .menu {
+        display: block;
+        top: 0;
+        right: 0;
+    }
+    ul {
+        display: none;
+        background-image: repeating-linear-gradient(transparent , transparent 10%, #333 10% , #333 100%);
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+    .title-home-page h1 {
+        font-size: 38px;
+    }
+    nav:hover ul {
+        display: block;
+
+    }
+    nav ul li {
+        display: block;
+
+    }
+    .border {
+        display: none;
+    }
+    .cover-info-img {
+    transform: translateX(0%);
+    }
+    .cover-info-img  {
+        width: 100%;
+    }
+    .content-info {
+        width: 100%;
+        margin: 20px auto;
+        transform: translateX(0%);
+    }
+    .cv .cv-1,
+    .cv .cv-2 {
+        margin-top: 5px;
+        width: 100%;
+        padding: 0;
+    }
+    .services .card {
+        width: calc(100% / 1);
+    }
+
+    .products .product {
+        width: calc(90% / 1)
+    }
+    .about .btn  a{
+        display: block;
+        width: fit-content;
+        margin-bottom: 20px;
+        transform: translateX(-30px);
+    }
+    .about .btn  a:last-child {
+        transform: translateX(-50px);
+    }
+    .counter .cards .card {
+        width: calc(100% / 1);
+    }
+    .blog .cards .card {
+        width: calc(100% / 1);
+    }
+    .feed .img {
+        float: none;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .feed .text {
+        width: 50%;
+        float: none;
+        display: inline;
+    }
+    form input[name="text"] {
+        width: 100%;
+    }
+    form input[name="email"] {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 40px;
+    }
+    .main-title h3 {
+        font-size: 30px;
+    }
+    .social {
+        transform: translateY(250px);
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width:450px
+    } 
+ 
+}
